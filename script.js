@@ -4,12 +4,13 @@ const students = [
     { name: "Daniel", studentId: "202300234", department: "Software Engineering" }
 ];
 
+
 console.log("CLASS STUDENT INFORMATION");
 
 students.forEach((student) => {
     console.log(`Name: ${student.name} | Student ID: ${student.studentId} | Department: ${student.department}`);
     console.log(`Welcome, ${student.name}!`);
-    
+
 });
 
 const totalStudents = students.length;
